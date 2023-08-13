@@ -10,9 +10,9 @@ public class ConnectionDAO {
     
     //ATRIBUTOS PARA CONEX�O COM O BANCO DE DADOS, DRIVER, URL, USUARIO, SENHA
     private static final String DRIVER = "com.mysql.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://randomuser123.ddns.net:3306/radius?allowPublicKeyRetrieval=true&useSSL=false";
-    private static final String USER = "java";
-    private static final String PASS = "java";
+    private static final String URL = "URL_BD";
+    private static final String USER = "USER_BD";
+    private static final String PASS = "PASSWORD_BD";
     
     //METODO PARA ESTABELECER CONEX�O COM O BANCO DE DADOS
     public static Connection getConnection() {
